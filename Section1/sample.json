@@ -1,0 +1,75 @@
+[
+    {
+        "inet": {
+            "dns_servers": [
+                "10.48.37.150"
+            ],
+            "gateway": "10.48.177.129",
+            "host_ip": "10.48.177.178",
+            "netmask": "255.255.255.128",
+            "routes": []
+        },
+        "inet6": {},
+        "interface": "enp53s0f0",
+        "intra_cluster_link": false
+    },
+    {
+        "inet": {
+            "dns_servers": [],
+            "gateway": "",
+            "host_ip": "",
+            "netmask": "",
+            "routes": []
+        },
+        "inet6": {},
+        "interface": "enp53s0f1",
+        "intra_cluster_link": false
+    },
+    {
+        "inet": {
+            "dns_servers": [
+                "172.16.0.26"
+            ],
+            "gateway": "",
+            "host_ip": "172.16.0.2",
+            "netmask": "255.255.255.0",
+            "routes": [
+                {
+                    "gateway": "172.16.0.1",
+                    "netmask": "255.255.0.0",
+                    "network": "192.168.0.0"
+                },
+                {
+                    "gateway": "172.16.0.1",
+                    "netmask": "255.255.0.0",
+                    "network": "172.16.0.0"
+                },
+                {
+                    "gateway": "172.16.0.1",
+                    "netmask": "255.255.255.0",
+                    "network": "172.10.104.0"
+                },
+                {
+                    "gateway": "172.16.0.1",
+                    "netmask": "255.255.255.248",
+                    "network": "172.16.104.0"
+                }
+            ]
+        },
+        "inet6": {},
+        "interface": "enp69s0f0",
+        "intra_cluster_link": true
+    },
+    {
+        "inet": {
+            "dns_servers": [],
+            "gateway": "",
+            "host_ip": "",
+            "netmask": "",
+            "routes": []
+        },
+        "inet6": {},
+        "interface": "enp69s0f1",
+        "intra_cluster_link": false
+    }
+]
